@@ -1,17 +1,10 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-import styled from "styled-components";
+import React from 'react'
+import {  StyledHeader } from './styles/Header.styled'
 
-const Navbar = styled.nav`
-    height: 60px;
-    background: red;
-`
-
-const Header = () =>{
-    return (
-        <Navbar>
-        </Navbar> 
-    )
+export default function Header() {
+  return (
+    <StyledHeader>
+        <h1>This is header</h1>
+    </StyledHeader>
+  )
 }
-
-export default Header;

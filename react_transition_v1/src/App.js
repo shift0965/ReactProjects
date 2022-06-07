@@ -1,11 +1,17 @@
-
-import './App.css';
 import Header from './component/Header';
+import {Container} from './component/styles/Container.styled'
 
 
 function App() {
   return (
-    <Header/>
+    <div className="">
+      <Header />
+      <Container>
+        <h1>Hello world</h1>
+      </Container> 
+
+
+    </div>
   );
 }
 
