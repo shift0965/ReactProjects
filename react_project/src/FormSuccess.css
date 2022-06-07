@@ -1,0 +1,30 @@
+
+.form_right{
+    z-index: 1;
+    position: relative;
+    width:100%;
+    height:100%;
+    background: #141414;
+    color: white;
+    display: flex;
+}
+
+.form_right{
+    font-size: 24px;
+}
+
+.form_success{
+    margin: 50px;
+    display: block;
+}
+
+.img2_container{
+    margin: 0px auto;
+    height: 250px;
+    width: 250px;
+}
+
+.img2_container img{
+    width: 100%;
+    height: 100%;
+}
