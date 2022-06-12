@@ -27,7 +27,6 @@ const Form = ({setFormOpen}) => {
                 {!isSubmitted ? <FormSignUp SubmitForm={SubmitForm}/> : <FormSuccess/>}
             </div>
         </div>
-        
     )
 }
 export default Form;
